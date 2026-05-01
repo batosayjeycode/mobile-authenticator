@@ -1,0 +1,64 @@
+# =========================
+# Node.js / Frontend
+# =========================
+node_modules/
+dist/
+build/
+www/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# =========================
+# Capacitor
+# =========================
+.capacitor/
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/local.properties
+android/captures/
+android/build/
+android/app/build/
+
+# Keystore (important)
+*.jks
+*.keystore
+
+# =========================
+# iOS
+# =========================
+ios/DerivedData/
+ios/App/build/
+ios/App/Pods/
+ios/App/.symlinks/
+ios/App/xcuserdata/
+
+# Xcode temp
+*.xcuserstate
+
+# =========================
+# Misc
+# =========================
+tmp/
+temp/
+*.swp

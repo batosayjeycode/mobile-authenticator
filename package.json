@@ -1,0 +1,31 @@
+{
+  "name": "mobile-authenticator-app",
+  "version": "1.0.0",
+  "description": "Authenticator — TOTP 2FA app with VPN integration (iOS & Android)",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cap:sync": "npx cap sync",
+    "cap:ios": "npx cap open ios",
+    "cap:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/clipboard": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/preferences": "^7.0.0",
+    "@capacitor-mlkit/barcode-scanning": "^7.0.0",
+    "jsqr": "^1.4.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/compiler-sfc": "^3.4.21",
+    "sass": "^1.72.0",
+    "vite": "^5.2.0"
+  }
+}

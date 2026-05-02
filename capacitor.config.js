@@ -1,6 +1,6 @@
 /** @type {import('@capacitor/cli').CapacitorConfig} */
 const config = {
-  appId: 'com.authenticator.app',
+  appId: 'com.sociolla.authenticatorapp',
   appName: 'Authenticator',
   webDir: 'dist',
   plugins: {

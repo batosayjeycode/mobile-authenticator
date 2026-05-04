@@ -45,5 +45,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Kamera digunakan untuk memindai QR code akun autentikator.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Akses foto digunakan untuk memilih gambar QR code dari galeri.</string>
 </dict>
 </plist>

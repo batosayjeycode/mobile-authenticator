@@ -235,13 +235,13 @@ export default {
   border-radius: 8px;
   padding: 9px 12px;
   color: var(--text-primary);
-  font-size: 13px;
+  font-size: 16px; /* iOS requires >= 16px to prevent auto-zoom */
   font-family: inherit;
   outline: none;
   box-sizing: border-box;
   transition: border-color 0.15s;
   &:focus { border-color: var(--accent); }
-  &::placeholder { color: var(--text-muted); }
+  &::placeholder { color: var(--text-muted); font-size: 14px; }
   &--error { border-color: #f85149; }
 }
 

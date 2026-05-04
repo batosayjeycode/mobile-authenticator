@@ -68,6 +68,9 @@ button {
 
 input, select, textarea {
   font-family: inherit;
+  /* Prevent iOS auto-zoom (requires font-size >= 16px) */
+  font-size: 16px;
+  touch-action: manipulation;
 }
 
 /* =====================
